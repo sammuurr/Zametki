@@ -9,23 +9,37 @@
 /* Begin PBXBuildFile section */
 		8E7478E726973941004EAA1C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E7478E626973941004EAA1C /* AppDelegate.swift */; };
 		8E7478E926973941004EAA1C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E7478E826973941004EAA1C /* SceneDelegate.swift */; };
-		8E7478EB26973941004EAA1C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E7478EA26973941004EAA1C /* ViewController.swift */; };
 		8E7478EE26973941004EAA1C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E7478EC26973941004EAA1C /* Main.storyboard */; };
 		8E7478F126973941004EAA1C /* Zametki.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8E7478EF26973941004EAA1C /* Zametki.xcdatamodeld */; };
 		8E7478F326973942004EAA1C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8E7478F226973942004EAA1C /* Assets.xcassets */; };
 		8E7478F626973942004EAA1C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E7478F426973942004EAA1C /* LaunchScreen.storyboard */; };
+		8E74790426982681004EAA1C /* GroupTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E74790326982681004EAA1C /* GroupTableViewCell.swift */; };
+		8E7479062698279E004EAA1C /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E7479052698279E004EAA1C /* FirstViewController.swift */; };
+		8E74791626984AF9004EAA1C /* Zametka+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E74791226984AF9004EAA1C /* Zametka+CoreDataClass.swift */; };
+		8E74791726984AF9004EAA1C /* Zametka+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E74791326984AF9004EAA1C /* Zametka+CoreDataProperties.swift */; };
+		8E74791826984AF9004EAA1C /* Group+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E74791426984AF9004EAA1C /* Group+CoreDataClass.swift */; };
+		8E74791926984AF9004EAA1C /* Group+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E74791526984AF9004EAA1C /* Group+CoreDataProperties.swift */; };
+		8E74791B26986844004EAA1C /* NewZametkaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E74791A26986844004EAA1C /* NewZametkaViewController.swift */; };
+		8E74791E2698A7F1004EAA1C /* GroupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E74791D2698A7F1004EAA1C /* GroupViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		8E7478E326973941004EAA1C /* Zametki.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Zametki.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8E7478E626973941004EAA1C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8E7478E826973941004EAA1C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		8E7478EA26973941004EAA1C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		8E7478ED26973941004EAA1C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8E7478F026973941004EAA1C /* Zametki.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Zametki.xcdatamodel; sourceTree = "<group>"; };
 		8E7478F226973942004EAA1C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8E7478F526973942004EAA1C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8E7478F726973942004EAA1C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8E74790326982681004EAA1C /* GroupTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupTableViewCell.swift; sourceTree = "<group>"; };
+		8E7479052698279E004EAA1C /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		8E74791226984AF9004EAA1C /* Zametka+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Zametka+CoreDataClass.swift"; path = "Zametki/Models/CoreDataModels/ZametkaModel/Zametka+CoreDataClass.swift"; sourceTree = SOURCE_ROOT; };
+		8E74791326984AF9004EAA1C /* Zametka+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Zametka+CoreDataProperties.swift"; path = "Zametki/Models/CoreDataModels/ZametkaModel/Zametka+CoreDataProperties.swift"; sourceTree = SOURCE_ROOT; };
+		8E74791426984AF9004EAA1C /* Group+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Group+CoreDataClass.swift"; path = "Zametki/Models/CoreDataModels/GroupModel/Group+CoreDataClass.swift"; sourceTree = SOURCE_ROOT; };
+		8E74791526984AF9004EAA1C /* Group+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Group+CoreDataProperties.swift"; path = "Zametki/Models/CoreDataModels/GroupModel/Group+CoreDataProperties.swift"; sourceTree = SOURCE_ROOT; };
+		8E74791A26986844004EAA1C /* NewZametkaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewZametkaViewController.swift; sourceTree = "<group>"; };
+		8E74791D2698A7F1004EAA1C /* GroupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,16 +72,87 @@
 		8E7478E526973941004EAA1C /* Zametki */ = {
 			isa = PBXGroup;
 			children = (
+				8E7478FF269825B2004EAA1C /* Views */,
+				8E7478FE269825A8004EAA1C /* Models */,
+				8E7478FD26982598004EAA1C /* Controlers */,
 				8E7478E626973941004EAA1C /* AppDelegate.swift */,
 				8E7478E826973941004EAA1C /* SceneDelegate.swift */,
-				8E7478EA26973941004EAA1C /* ViewController.swift */,
-				8E7478EC26973941004EAA1C /* Main.storyboard */,
 				8E7478F226973942004EAA1C /* Assets.xcassets */,
-				8E7478F426973942004EAA1C /* LaunchScreen.storyboard */,
 				8E7478F726973942004EAA1C /* Info.plist */,
-				8E7478EF26973941004EAA1C /* Zametki.xcdatamodeld */,
 			);
 			path = Zametki;
+			sourceTree = "<group>";
+		};
+		8E7478FD26982598004EAA1C /* Controlers */ = {
+			isa = PBXGroup;
+			children = (
+				8E7479052698279E004EAA1C /* FirstViewController.swift */,
+				8E74791D2698A7F1004EAA1C /* GroupViewController.swift */,
+				8E74791A26986844004EAA1C /* NewZametkaViewController.swift */,
+			);
+			path = Controlers;
+			sourceTree = "<group>";
+		};
+		8E7478FE269825A8004EAA1C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				8E74790F26984A01004EAA1C /* CoreDataModels */,
+				8E7478EF26973941004EAA1C /* Zametki.xcdatamodeld */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		8E7478FF269825B2004EAA1C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				8E74790026982608004EAA1C /* Cells */,
+				8E7478EC26973941004EAA1C /* Main.storyboard */,
+				8E7478F426973942004EAA1C /* LaunchScreen.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		8E74790026982608004EAA1C /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				8E74790226982645004EAA1C /* TableViewCells */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		8E74790226982645004EAA1C /* TableViewCells */ = {
+			isa = PBXGroup;
+			children = (
+				8E74790326982681004EAA1C /* GroupTableViewCell.swift */,
+			);
+			path = TableViewCells;
+			sourceTree = "<group>";
+		};
+		8E74790F26984A01004EAA1C /* CoreDataModels */ = {
+			isa = PBXGroup;
+			children = (
+				8E74791126984A21004EAA1C /* ZametkaModel */,
+				8E74791026984A10004EAA1C /* GroupModel */,
+			);
+			path = CoreDataModels;
+			sourceTree = "<group>";
+		};
+		8E74791026984A10004EAA1C /* GroupModel */ = {
+			isa = PBXGroup;
+			children = (
+				8E74791426984AF9004EAA1C /* Group+CoreDataClass.swift */,
+				8E74791526984AF9004EAA1C /* Group+CoreDataProperties.swift */,
+			);
+			path = GroupModel;
+			sourceTree = "<group>";
+		};
+		8E74791126984A21004EAA1C /* ZametkaModel */ = {
+			isa = PBXGroup;
+			children = (
+				8E74791226984AF9004EAA1C /* Zametka+CoreDataClass.swift */,
+				8E74791326984AF9004EAA1C /* Zametka+CoreDataProperties.swift */,
+			);
+			path = ZametkaModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -140,10 +225,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8E7478EB26973941004EAA1C /* ViewController.swift in Sources */,
+				8E7479062698279E004EAA1C /* FirstViewController.swift in Sources */,
+				8E74791B26986844004EAA1C /* NewZametkaViewController.swift in Sources */,
 				8E7478F126973941004EAA1C /* Zametki.xcdatamodeld in Sources */,
+				8E74791E2698A7F1004EAA1C /* GroupViewController.swift in Sources */,
+				8E74791726984AF9004EAA1C /* Zametka+CoreDataProperties.swift in Sources */,
 				8E7478E726973941004EAA1C /* AppDelegate.swift in Sources */,
 				8E7478E926973941004EAA1C /* SceneDelegate.swift in Sources */,
+				8E74791826984AF9004EAA1C /* Group+CoreDataClass.swift in Sources */,
+				8E74790426982681004EAA1C /* GroupTableViewCell.swift in Sources */,
+				8E74791926984AF9004EAA1C /* Group+CoreDataProperties.swift in Sources */,
+				8E74791626984AF9004EAA1C /* Zametka+CoreDataClass.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

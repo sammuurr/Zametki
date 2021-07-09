@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="18154" systemVersion="20D74" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Group" representedClassName="Group" syncable="YES">
+        <attribute name="id" attributeType="UUID" usesScalarValueType="NO"/>
+        <attribute name="name" optional="YES" attributeType="String"/>
+        <relationship name="zametki" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Zametka" inverseName="group" inverseEntity="Zametka"/>
+    </entity>
+    <entity name="Zametka" representedClassName="Zametka" syncable="YES">
+        <attribute name="contentBody" optional="YES" attributeType="String"/>
+        <attribute name="contentTitle" optional="YES" attributeType="String"/>
+        <attribute name="id" optional="YES" attributeType="UUID" usesScalarValueType="NO"/>
+        <attribute name="name" optional="YES" attributeType="String"/>
+        <relationship name="group" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Group" inverseName="zametki" inverseEntity="Group"/>
+    </entity>
+    <elements>
+        <element name="Group" positionX="-63" positionY="-18" width="128" height="74"/>
+        <element name="Zametka" positionX="-54" positionY="9" width="128" height="104"/>
+    </elements>
+</model>
